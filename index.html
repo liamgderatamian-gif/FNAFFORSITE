@@ -1,64 +1,48 @@
-<!-- 
-This is a comment in HTML.
-Comments are ignored by the browser and are just for humans to read.
--->
-
 <!DOCTYPE html>
-<!-- 
-The <!DOCTYPE html> declaration tells the browser 
-that this is an HTML5 document.
--->
-
 <html lang="en">
-<!-- 
-<html> is the root element of an HTML page.
-The "lang" attribute specifies the language of the page (English here).
--->
-
 <head>
-    <!-- 
-    The <head> section contains information *about* the page, 
-    not what is shown directly on the page.
-    -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>FNAF 1-4</title>
-</head>
-<style>
-body {
-    background-color: black;
-    color: white;
-}
-h1, p1, div {
-    text-align: center;
-}
 
-</style>
+    <style>
+        body {
+            background-color: black;
+            color: white;
+            text-align: center;
+        }
+
+        .btn {
+            display: inline-block;
+            background-color: #444;
+            color: white;
+            padding: 15px 25px;
+            margin: 10px;
+            border-radius: 8px;
+            text-decoration: none;
+            font-size: 18px;
+        }
+
+        .btn:hover {
+            background-color: #666;
+        }
+    </style>
+</head>
 
 <body>
-    <!-- 
-    The <body> contains all the content that will be displayed on the page.
-    -->
 
     <h1>FNAF</h1>
-    <!-- 
-    <h1> is a heading tag. 
-    Headings go from <h1> (largest) to <h6> (smallest).
-    -->
-
     <p>Fnaf list</p>
-    <!-- 
-    <p> is a paragraph tag. It is used for blocks of text.
-    -->
 
-    <a href="https://sites.google.com/ecolesourphagop.com/lgmath/settings/gm3z/extras="_blank">Go back</a>
-    <!-- 
-    <a> is a link tag. 
-    "href" is the URL it points to.
-    "target='_blank'" opens the link in a new tab.
-    -->
-    <div
-    <img src="path/to/image.jpg" alt="Clickable Image">
-    </div>
+    <a href="https://sites.google.com/ecolesourphagop.com/lgmath/settings/gm3z/extras" target="_blank">Go back</a>
+
+    <br><br>
+
+    <!-- Four redirect buttons -->
+    <a class="btn" href="fnaf1.html">FNAF 1</a>
+    <a class="btn" href="fnaf2.html">FNAF 2</a>
+    <a class="btn" href="fnaf3.html">FNAF 3</a>
+    <a class="btn" href="fnaf4.html">FNAF 4</a>
+
 </body>
 </html>
